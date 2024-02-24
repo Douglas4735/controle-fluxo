@@ -17,11 +17,7 @@ public class Treinamanto {
        System.out.println("Digite o valor a ser sacado:");
        double valor = sc.nextDouble();
    
-       System.out.println("Fim");
+       System.out.println("Nome do banco é: " + banco + " e o numero da conta é: " + conta + " e o valor a ser sacado é R$: " + valor + " Reais.");
 }
 
-    @Override
-    public String toString() {
-        return "Treinamanto []";
-    }
 }
