@@ -1,12 +1,10 @@
-import java.util.Scanner;
 import java.util.InputMismatchException;
 import java.util.Locale;
+import java.util.Scanner;
 
-public class Treinamanto {
-    /*Os codigos escritos aqui são somente para treina sendo que sempre averá mudanças */
+public class TryCatch {
     public static void main(String[] args) {
-
-        try{
+     try{
        Scanner sc = new Scanner(System.in).useLocale(Locale.US);
 
        System.out.println("Digite seu nome: ");
@@ -32,7 +30,5 @@ public class Treinamanto {
         catch (InputMismatchException e){
             System.err.println("Os campos idade e altura precisam ser numericos.");
         }
-        
 }
-        
 }
