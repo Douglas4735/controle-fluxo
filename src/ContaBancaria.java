@@ -22,8 +22,8 @@ public class ContaBancaria {
        double saque = sc.nextDouble();
 
        System.out.println("Olá, " + nome.toUpperCase());
-       System.out.println("Minha agencia é: " + agencia);
-       System.out.println("O numero da minha conta é: " + conta);
+       System.out.println("Sua agencia é: " + agencia);
+       System.out.println("O numero da Sua conta é: " + conta);
        System.out.println("E o valor informado para saque é: " + saque);
 
        sc.close();
