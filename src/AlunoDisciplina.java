@@ -2,7 +2,7 @@ public class AlunoDisciplina {
     double nota;
     String disciplina;
 
-
+                                                                                              
     public void setNota(double nota) {
         this.nota = nota;
     }
