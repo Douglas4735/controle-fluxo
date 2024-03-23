@@ -1,5 +1,5 @@
 public class Carro {
-   public String nome;
+    String nome;
     String anoFabricacao;
     String cor;
     String modelo;
