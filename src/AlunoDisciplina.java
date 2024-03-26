@@ -1,5 +1,5 @@
 public class AlunoDisciplina {
-    double nota;
+    /*double nota;
     String disciplina;
 
                                                                                               
@@ -15,4 +15,15 @@ public class AlunoDisciplina {
     public String getDisciplina(){
         return disciplina;
     }
+
+    @Override
+    public String toString() {
+        // TODO Auto-generated method stub
+        return super.toString();
+    }
+    @Override
+    public int hashCode() {
+        // TODO Auto-generated method stub
+        return super.hashCode();
+    }*/
 }
