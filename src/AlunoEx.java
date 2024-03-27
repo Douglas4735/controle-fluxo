@@ -7,9 +7,17 @@ public class AlunoEx {
         String idade = JOptionPane.showInputDialog("Qual idade do aluno?");
         String datanascimento = JOptionPane.showInputDialog("data de nascimento do aluno?");
         String mae = JOptionPane.showInputDialog("Nome da mãe");
+
+        String disciplina1 = JOptionPane.showInputDialog("Disciplina1");
         String nota1 = JOptionPane.showInputDialog("digite a primeira nota?");
+
+        String disciplina2 = JOptionPane.showInputDialog("Disciplina2");
         String nota2 = JOptionPane.showInputDialog("Digite a segunda nota?");
+
+        String disciplina3 = JOptionPane.showInputDialog("Disciplina3");
         String nota3 = JOptionPane.showInputDialog("Digite a terceira nota?");
+
+        String disciplina4 = JOptionPane.showInputDialog("Disciplina4");
         String nota4 = JOptionPane.showInputDialog("Digite a quarta nota?");
 
         Aluno aluno = new Aluno();
@@ -22,6 +30,11 @@ public class AlunoEx {
         aluno.setNota2(Double.parseDouble(nota2));
         aluno.setNota3(Double.parseDouble(nota3));
         aluno.setNota4(Double.parseDouble(nota4));
+
+        aluno.setDisciplina1(disciplina1);
+        aluno.setDisciplina2(disciplina2);
+        aluno.setDisciplina3(disciplina3);
+        aluno.setDisciplina4(disciplina4);
 
         System.out.println("O nome do aluno é: " +aluno.getNome());
         System.out.println("A idade dele(a) é: " +aluno.getIdade() + " anos");

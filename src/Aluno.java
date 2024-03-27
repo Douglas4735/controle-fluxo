@@ -6,9 +6,17 @@ public class Aluno {
     int idade;
     String dataNascimento;
     String mae;
+
+    String disciplina1;
     double nota1;
+
+    String disciplina2;
     double nota2;
+
+    String disciplina3;
     double nota3;
+
+    String disciplina4;
     double nota4;
 
     // Eu parei aqui no Array das disciplinas
@@ -62,6 +70,31 @@ public class Aluno {
     public double getNota4() {
         return nota4;
     }
+    public void setDisciplina1(String disciplina1) {
+        this.disciplina1 = disciplina1;
+    }
+    public String getDisciplina1() {
+        return disciplina1;
+    }
+    public void setDisciplina2(String disciplina2){
+        this.disciplina2 = disciplina2;
+    }
+    public String getDisciplina2(){
+        return disciplina2;
+    }
+    public void setDisciplina3(String disciplina3) {
+        this.disciplina3 = disciplina3;
+    }
+    public String getDisciplina3() {
+        return disciplina3;
+    }
+    public void setDisciplina4(String disciplina4) {
+        this.disciplina4 = disciplina4;
+    }
+    public String getDisciplina4() {
+        return disciplina4;
+    }
+    
     /*Metodo que retorn a media do aluno */
     public double getMediaNota(){
         return (nota1 + nota2 + nota3 + nota4)/4;
