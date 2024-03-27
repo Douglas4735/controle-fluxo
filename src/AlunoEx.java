@@ -26,15 +26,16 @@ public class AlunoEx {
         aluno.setIdade(Integer.valueOf(idade));
         aluno.setDataNascimento(datanascimento);
         aluno.setMae(mae);
-        aluno.setNota1(Double.parseDouble(nota1));
-        aluno.setNota2(Double.parseDouble(nota2));
-        aluno.setNota3(Double.parseDouble(nota3));
-        aluno.setNota4(Double.parseDouble(nota4));
 
-        aluno.setDisciplina1(disciplina1);
-        aluno.setDisciplina2(disciplina2);
-        aluno.setDisciplina3(disciplina3);
-        aluno.setDisciplina4(disciplina4);
+        aluno.getAlunoDisciplina().setNota1(Double.parseDouble(nota1));
+        aluno.getAlunoDisciplina().setNota2(Double.parseDouble(nota2));
+        aluno.getAlunoDisciplina().setNota3(Double.parseDouble(nota3));
+        aluno.getAlunoDisciplina().setNota4(Double.parseDouble(nota4));
+
+        aluno.getAlunoDisciplina().setDisciplina1(disciplina1);
+        aluno.getAlunoDisciplina().setDisciplina2(disciplina2);
+        aluno.getAlunoDisciplina().setDisciplina3(disciplina3);
+        aluno.getAlunoDisciplina().setDisciplina4(disciplina4);
 
         System.out.println("O nome do aluno é: " +aluno.getNome());
         System.out.println("A idade dele(a) é: " +aluno.getIdade() + " anos");
