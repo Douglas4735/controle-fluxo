@@ -1,4 +1,5 @@
-
+import java.util.ArrayList;
+import java.util.List;
 
 public class Aluno {
     
@@ -7,13 +8,13 @@ public class Aluno {
    private String dataNascimento;
    private String mae;
 
-   private AlunoDisciplina disciplina = new AlunoDisciplina();
+   private List <AlunoDisciplina> disciplinas = new ArrayList<AlunoDisciplina>();
 
-    public void setAlunoDisciplina(AlunoDisciplina disciplina) {
-        this.disciplina = disciplina;
+    public void setDisciplinas(List<AlunoDisciplina> disciplinas) {
+        this.disciplinas = disciplinas;
     }
-    public AlunoDisciplina getAlunoDisciplina() {
-        return disciplina;
+    public List<AlunoDisciplina> getDisciplinas() {
+        return disciplinas;
     }
    
 
@@ -48,7 +49,7 @@ public class Aluno {
     
     /*Metodo que retorn a media do aluno */
     public double getMediaNota(){
-        return (disciplina.getNota1() + disciplina.getNota2() + disciplina.getNota3() + disciplina.getNota4())/4;
+        return 0;
     }
     public boolean getAlunoAprovado(){
         double media = this.getMediaNota();
@@ -70,6 +71,11 @@ public class Aluno {
     public String toString() {
         // TODO Auto-generated method stub
         return super.toString();
+    }
+    @Override
+    public int hashCode() {
+        // TODO Auto-generated method stub
+        return super.hashCode();
     }
     
 }

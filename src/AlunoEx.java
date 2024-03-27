@@ -27,15 +27,7 @@ public class AlunoEx {
         aluno.setDataNascimento(datanascimento);
         aluno.setMae(mae);
 
-        aluno.getAlunoDisciplina().setNota1(Double.parseDouble(nota1));
-        aluno.getAlunoDisciplina().setNota2(Double.parseDouble(nota2));
-        aluno.getAlunoDisciplina().setNota3(Double.parseDouble(nota3));
-        aluno.getAlunoDisciplina().setNota4(Double.parseDouble(nota4));
-
-        aluno.getAlunoDisciplina().setDisciplina1(disciplina1);
-        aluno.getAlunoDisciplina().setDisciplina2(disciplina2);
-        aluno.getAlunoDisciplina().setDisciplina3(disciplina3);
-        aluno.getAlunoDisciplina().setDisciplina4(disciplina4);
+        
 
         System.out.println("O nome do aluno é: " +aluno.getNome());
         System.out.println("A idade dele(a) é: " +aluno.getIdade() + " anos");
@@ -46,7 +38,7 @@ public class AlunoEx {
         System.out.println("nota3 é: " + aluno.getNota3());
         System.out.println("nota4 é: " + aluno.getNota4());*/
         System.out.println("Media da nota é: " +aluno.getMediaNota());
-        System.out.println("Resultado = " + (aluno.getAlunoAprovado()? "Aprovado" : "reprovado"));
+        System.out.println("Resultado = " +(aluno.getAlunoAprovado()? "Aprovado" : "reprovado"));
         System.out.println("Resultado 2 = " +aluno.getAlunoAprovado2());
     }
      
